@@ -1,0 +1,71 @@
+.div {
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.original {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#translate {transform: translate(25px, 25px);}
+
+#rotate {transform: rotate(20deg);}
+
+#scaleX {transform: scaleX(2);}
+
+#scaleY {transform: scaleY(0.5);}
+
+#scale {transform: scale(2, 0.5);}
+
+#skewX {transform: skewX(20deg);}
+
+#skewY {transform: skewY(-20deg);}
+
+#skew {transform: skew(20deg, -20deg);}
+
+#matrix {transform: matrix(1, -0.3, 0, 1, 0, 0);
+    /*matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())*/}
+
+#rotateX {
+    transform: rotateX(150deg);
+}
+
+#rotateY {
+    transform: rotateY(-150deg);
+}
+
+#rotateZ {
+    transform: rotateZ(150deg);
+}
+
+#rotateXTransition {
+    transition: transform 2s;
+}
+
+#rotateXTransition:hover {
+    transform: rotateX(180deg);
+}
+
+#rotateYTransition {
+    transition: transform 2s;
+}
+
+#rotateYTransition:hover {
+    transform: rotateY(-150deg);
+}
+
+#rotateZTransition {
+    transition: transform 2s;
+}
+
+#rotateZTransition:hover {
+    transform: rotateZ(180deg);
+}
+
+
+
