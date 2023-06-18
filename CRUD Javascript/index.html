@@ -1,0 +1,43 @@
+<!-- DUPLA: CLARISSE DINIZ E EDSON LIMA-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon2.png">
+</head>
+
+<body>
+    <h1 style="font-style: initial; color:blueviolet;">Agenda de Contatos</h1>
+
+    <form id="contact-form">
+        <label for="name"><b>Nome:</b></label>
+        <input type="text" id="name" required>
+
+        <label for="phone"><b>Telefone:</b></label>
+        <input type="tel" id="phone" required maxlength="11" minlength="10">
+
+        <label for="email"><b>E-mail:</b></label>
+        <input type="email" id="email" required>
+
+        <button type="submit" style="font-size: 14px;">Inserir Contato</button>
+    </form>
+
+    <table id="contact-table">
+        <thead>
+            <tr>
+                <th style="color:blueviolet; font-size: 17px;">Nome</th>
+                <th style="color:blueviolet; font-size: 17px;">Telefone</th>
+                <th style="color:blueviolet; font-size: 17px;">E-mail</th>
+                <th style="color:blueviolet; font-size: 17px;">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

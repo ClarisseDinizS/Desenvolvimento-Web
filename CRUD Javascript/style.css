@@ -1,0 +1,138 @@
+/* DUPLA: CLARISSE DINIZ E EDSON LIMA*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.actions button {
+  margin-right: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button.edit-button {
+  background-color: #2196f3;
+}
+
+.actions button.delete-button {
+  background-color: #f44336;
+}
+
+.actions button.save-button,
+.actions button.cancel-button {
+  background-color: blueviolet;
+}
+
+.actions button.save-button:hover,
+.actions button.cancel-button:hover {
+  background-color: blueviolet;
+}
+
+.actions button,
+.actions input[type="text"],
+.actions input[type="email"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.actions input[type="text"],
+.actions input[type="email"] {
+  width: 180px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.actions input[type="text"]:focus,
+.actions input[type="email"]:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px #4caf50;
+}
+
+.actions input[type="text"]:hover,
+.actions input[type="email"]:hover {
+  border-color: #999;
+}
